@@ -1,0 +1,285 @@
+body{
+font-family:Arial, Calibri, Times New Roman;
+font-size:12px;
+color:#000000;
+height:100%;
+width:100%;
+padding:0px;
+margin: 0 auto;
+float:middle;
+overflow-x:hidden; overflow-y:auto;
+}
+
+#responsive{
+float:middle;
+min-height:680px;
+height:3000px;
+width:100%;
+margin:0 auto;
+border:1px solid #000000;
+}
+
+	.div_head{		
+		height:4.5%;
+		width:100%;
+		border:0px solid #000000;
+		position:fixed;
+		z-index:99;
+		height:150px;
+		min-height:80px;
+		max-height:150px;
+		background: -webkit-gradient(linear, left top, left bottom, from(#4B0082), to(#ffffff));
+		background: -moz-linear-gradient(top,  rgb(250, 250, 250),  rgb(119, 98, 238));
+	}
+	
+		.div_head_left{	
+			clear:both;
+			overflow:hidden;
+			float:left;
+			height:90%;
+			width:10%;
+			margin:5px;
+			border:1px solid #000000;
+			
+		}
+		
+		.div_head_right{
+			overflow:hidden;
+			float:left;
+			height:90%;
+			width:88%;
+			margin:5px;
+			border:1px solid #000000;
+			
+		}
+	
+	.div_slider{		
+		height:17%;
+		width:100%;
+		border:1px solid #DA1717;
+		margin-top:150px;
+	}
+	
+		.div_slider_top{		
+			height:100%;
+			width:100%;
+			border:1px solid #000000;
+			position:relative;
+			z-index:1;
+			background-color:green;
+		}
+		
+		.div_slider_bottom{		
+		height:45%;
+		width:100%;
+		border:1px solid #000000;
+		position:relative;
+		z-index:2;
+		background:transparent;
+		margin-top:-21%;
+		}
+		
+			.div_slider_bottom_display{		
+			height:90%;
+			width:18%;
+			border:1px solid #000000;
+			background:transparent;	
+			overflow:hidden;
+			float:left;
+			margin:10px;
+			}
+			
+			.div_slider_bottom_display:hover{
+				margin-top:-10px;
+				height:100%;
+				box-shadow:5px 5px 5px 5px #f0f0f0;
+			}
+			
+			.dis_img_scrall{
+				height:100%;
+				max-height:210px;
+				width:100%;
+			}
+			
+			.dis_img_scrall_dis{
+				height:100%;
+				width:100%;
+			}
+			
+
+	.div_products{
+		clear:both;
+		overflow:hidden;
+		height:32%;
+		min-height:680px;
+		border:1px solid #ccc;
+		margin-top:15px;
+
+	}
+	
+		.div_products_items{
+			clear:both;
+			overflow:hidden;
+			height:31.5%;
+			min-height:200px;
+			border:1px solid #ccc;
+			margin:10px;		
+		}
+		
+			.div_products_display{	
+				float:left;
+				overflow:hidden;
+				height:92%;
+				width:18.2%;				
+				border:1px solid #ccc;
+				margin:10px;
+					
+			}
+			
+				.div_products_display_top{		
+				clear:both;
+				overflow:hidden;
+				height:79%;
+				width:100%;				
+				border:0px solid #ccc;				
+				}
+				
+				.div_products_display_bottom{		
+				clear:both;
+				overflow:hidden;
+				height:20%;
+				width:100%;
+				min-height:40px;
+				border:1px solid #ccc;	
+				margin-top:1px;
+				border-radius:5px;
+				background:transparent;
+				}
+				
+				.div_products_display_bottom:hover{	
+					background: -webkit-gradient(linear, left bottom, left top, from(#4B0082), to(#ffffff));
+					background: -moz-linear-gradient(bottom,  #4B0082,  #ffffff);
+					border:1px solid #ccc;					
+					border-radius:5px;
+					box-shadow:5px 5px #ccc;
+				}
+				
+				
+		.div_adds{
+			clear:both;
+			overflow:hidden;
+			height:200px;
+			width:100%;
+			border:1px solid #ccc;
+			margin-top:20px;		
+		}
+		
+			.div_adds_lelft{
+				overflow:hidden;
+				clear:both;
+				float:left;
+				height:93%;
+				width:48%;
+				border:1px solid #ccc;
+				margin:5px;
+				margin-left:15px;
+			}
+			
+			.div_adds_right{
+				overflow:hidden;
+				float:right;
+				height:93%;
+				width:48%;
+				border:1px solid #ccc;
+				margin:5px;
+				margin-right:15px;
+			}
+
+			
+	.div_blogs{
+		clear:both;
+		float:left;
+		overflow:hidden;
+		height:20%;
+		width:100%;
+		border:1px solid #ccc;
+		margin-top:20px;
+	}
+	
+		.div_blogs_top{
+			clear:both;
+			float:left;
+			overflow:hidden;
+			height:70%;
+			width:100%;
+			border:1px solid #ccc;			
+		}
+		
+			.div_blogs_top_left{
+				clear:both;
+				float:left;
+				overflow:hidden;
+				height:100%;
+				width:65%;
+				border:1px solid #ccc;			
+			}
+			
+			.div_blogs_top_right{
+				float:right;
+				overflow:hidden;
+				height:100%;
+				width:33%;
+				border:1px solid #ccc;			
+			}
+			
+				.div_blogs_top_right_blog{
+				clear:both;
+				float:left;
+				overflow:hidden;
+				height:30%;
+				width:100%;
+				border:1px solid #ccc;	
+				margin:5px;
+				}
+				
+					.div_blogs_top_right_blog_left{
+					clear:both;
+					float:left;
+					overflow:hidden;
+					height:100%;
+					width:25%;
+					border:1px solid #ccc;						
+					}
+					
+					.div_blogs_top_right_blog_right{
+					float:right;
+					overflow:hidden;
+					height:100%;
+					width:74%;
+					border:1px solid #ccc;						
+					}
+		
+		.div_blogs_bottom{
+			clear:both;
+			float:left;
+			overflow:hidden;
+			height:27%;
+			width:100%;
+			border:1px solid #ccc;	
+			margin-top:10px;
+		}
+			.div_blogs_bottom_sideMenu{
+				clear: both;
+				float: left;
+				height: 90%;
+				width: 20%;
+				border: 1px solid blue;
+				
+			}
+	
+			
+img {    
+	position:relative;
+	/*object-fit:cover;*/
+	
+}
